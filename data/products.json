@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Hoodie Obsidian",
+    "category": "Hoodies",
+    "price": 189000,
+    "description": "Hoodie oversized en algodón pesado. Interior felpado. Cordones planos negros.",
+    "tag": "NUEVO",
+    "image": "https://images.pexels.com/photos/32430590/pexels-photo-32430590.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 2,
+    "name": "Jogger Void",
+    "category": "Pantalones",
+    "price": 145000,
+    "description": "Jogger técnico con tejido elástico de cuatro vías. Tiro medio. Fit ajustado en tobillo.",
+    "tag": "TOP",
+    "image": "https://images.pexels.com/photos/4052282/pexels-photo-4052282.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 3,
+    "name": "Tee Phantom",
+    "category": "Camisetas",
+    "price": 89000,
+    "description": "Camiseta de algodón pima 200g. Cuello redondo reforzado. Corte unisex.",
+    "tag": null,
+    "image": "https://images.pexels.com/photos/3290886/pexels-photo-3290886.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 4,
+    "name": "Chaqueta Abyss",
+    "category": "Chaquetas",
+    "price": 298000,
+    "description": "Chaqueta coach en nylon ripstop. Bolsillos ocultos con zipper YKK. Forro satinado.",
+    "tag": "AGOTÁNDOSE",
+    "image": "https://images.pexels.com/photos/1954861/pexels-photo-1954861.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 5,
+    "name": "Crop Shadow",
+    "category": "Camisetas",
+    "price": 79000,
+    "description": "Crop top de punto acanalado. Escote cuadrado. Largo corto con acabado deshilachado.",
+    "tag": "NUEVO",
+    "image": "https://images.pexels.com/photos/2035786/pexels-photo-2035786.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "name": "Cargo Eclipse",
+    "category": "Pantalones",
+    "price": 219000,
+    "description": "Cargo con 6 bolsillos funcionales. Tela gabardina stretch. Ajuste en cintura con elástico.",
+    "tag": "TOP",
+    "image": "https://images.pexels.com/photos/14437351/pexels-photo-14437351.jpeg?w=1200"
+
+  }
+]
