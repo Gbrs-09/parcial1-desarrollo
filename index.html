@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BLACKSTORE — Inicio</title>
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <div id="header-placeholder"></div>
+  <div id="sidebar-placeholder"></div>
+
+  <div class="app-shell">
+    <main class="site-main">
+
+      <section class="hero-banner">
+        <p class="hero-eyebrow">Colección 2024 — Todo en negro</p>
+        <h1 class="hero-title">
+          VISTE<br /><em>LA</em><br />OSCURIDAD
+        </h1>
+        <p class="hero-desc">
+          Ropa oscura para mentes libres. Piezas construidas para durar,
+          diseñadas para destacar sin pedir permiso.
+        </p>
+        <a href="#catalogo" class="btn-hero">
+          VER CATÁLOGO
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+      </section>
+
+      <section id="catalogo">
+        <div class="section-header">
+          <h2 class="section-title">CATÁLOGO</h2>
+          <span class="section-count mono" id="products-count">— productos</span>
+        </div>
+        <div class="products-grid" id="products-grid">
+          <div class="product-card">
+            <div class="skeleton skel-box"></div>
+            <div class="skeleton skel-line short"></div>
+            <div class="skeleton skel-line long"></div>
+            <div class="skeleton skel-para"></div>
+            <div class="skeleton skel-line mid"></div>
+          </div>
+          <div class="product-card">
+            <div class="skeleton skel-box"></div>
+            <div class="skeleton skel-line mid"></div>
+            <div class="skeleton skel-line long"></div>
+            <div class="skeleton skel-para"></div>
+            <div class="skeleton skel-line short"></div>
+          </div>
+          <div class="product-card">
+            <div class="skeleton skel-box"></div>
+            <div class="skeleton skel-line long"></div>
+            <div class="skeleton skel-line mid"></div>
+            <div class="skeleton skel-para"></div>
+            <div class="skeleton skel-line short"></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <div id="footer-placeholder"></div>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel">
+    <div class="cart-panel-header">
+      <h2 class="cart-panel-title">CARRITO</h2>
+      <button class="cart-close-btn" id="cart-close-btn">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-panel-footer">
+      <div class="cart-summary">
+        <div class="cart-summary-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">$0</span>
+        </div>
+        <div class="cart-summary-row cart-summary-total">
+          <span>TOTAL</span>
+          <span id="cart-total">$0</span>
+        </div>
+      </div>
+      <button class="btn-checkout" id="btn-checkout">FINALIZAR COMPRA</button>
+      <button class="btn-clear-cart" id="btn-clear-cart">Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <script src="js/auth.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/loader.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
